@@ -13,6 +13,8 @@
 		821CA2652416E7970074381F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821CA2632416E7970074381F /* Main.storyboard */; };
 		821CA2672416E7980074381F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821CA2662416E7980074381F /* Assets.xcassets */; };
 		821CA26A2416E7980074381F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821CA2682416E7980074381F /* LaunchScreen.storyboard */; };
+		821CA2742416FEAF0074381F /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CA2732416FEAF0074381F /* ItemDetailViewController.swift */; };
+		823268162439F5A3003D913D /* PartyPlannerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823268152439F5A2003D913D /* PartyPlannerListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		821CA2662416E7980074381F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		821CA2692416E7980074381F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		821CA26B2416E7980074381F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821CA2732416FEAF0074381F /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		823268152439F5A2003D913D /* PartyPlannerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyPlannerListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				821CA25D2416E7970074381F /* AppDelegate.swift */,
 				821CA25F2416E7970074381F /* SceneDelegate.swift */,
+				823268152439F5A2003D913D /* PartyPlannerListItem.swift */,
 				821CA2612416E7970074381F /* ViewController.swift */,
+				821CA2732416FEAF0074381F /* ItemDetailViewController.swift */,
 				821CA2632416E7970074381F /* Main.storyboard */,
 				821CA2662416E7980074381F /* Assets.xcassets */,
 				821CA2682416E7980074381F /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823268162439F5A3003D913D /* PartyPlannerListItem.swift in Sources */,
 				821CA2622416E7970074381F /* ViewController.swift in Sources */,
 				821CA25E2416E7970074381F /* AppDelegate.swift in Sources */,
+				821CA2742416FEAF0074381F /* ItemDetailViewController.swift in Sources */,
 				821CA2602416E7970074381F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
